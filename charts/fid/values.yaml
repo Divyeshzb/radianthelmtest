@@ -9,8 +9,9 @@ image:
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
-  
+
 clusterIP: 10.10.0.10
+namespace: default
 
 fid:
   ## FID root user name
